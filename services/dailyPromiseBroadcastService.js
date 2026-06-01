@@ -116,7 +116,21 @@ async function broadcastDailyPromise(options = {}) {
     };
   }
 
-  const users = await getDailyPromiseSubscribers('_id mobile languagePreference');
+  let users = await getDailyPromiseSubscribers('_id mobile languagePreference');
+
+  if (options.userId) {
+    users = users.filter((u) => String(u._id) === String(options.userId));
+    if (users.length === 0) {
+      return {
+        ok: false,
+        broadcastDate,
+        message: 'User is not an active daily-promise subscriber',
+        sent: 0,
+        failed: 0,
+        skipped: 0,
+      };
+    }
+  }
 
   console.log(
     `[DailyPromise] ${broadcastDate}: ${users.length} subscriber(s) (active=true, dailyPromise=true)`
@@ -290,8 +304,24 @@ async function getDailyDeliveryReport(broadcastDate) {
   };
 }
 
+/**
+ * Fire-and-forget helper after upload / cron — logs result, never throws to caller.
+ */
+function triggerBroadcastForDate(date, label = 'auto') {
+  return broadcastDailyPromise({ date })
+    .then((result) => {
+      console.log(`[DailyPromise ${label}] ${date}:`, JSON.stringify(result));
+      return result;
+    })
+    .catch((err) => {
+      console.error(`[DailyPromise ${label}] ${date} failed:`, err.message);
+      throw err;
+    });
+}
+
 module.exports = {
   broadcastDailyPromise,
+  triggerBroadcastForDate,
   getBroadcastPendingStatus,
   getDailyDeliveryReport,
   getDailyPromiseSubscribers,

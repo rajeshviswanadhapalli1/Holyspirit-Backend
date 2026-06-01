@@ -33,8 +33,18 @@ app.use('/api/promises', promiseRoutes)
 const PORT = process.env.PORT || 5001;
 
 connectDB().then(() => {
-  app.listen(PORT, () => {
+  const server = app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     startDailyPromiseCron();
+  });
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(
+        `Port ${PORT} is in use. Set PORT in .env (e.g. 5001) or stop the other process.`
+      );
+    } else {
+      console.error('Server failed to start:', err.message);
+    }
+    process.exit(1);
   });
 });

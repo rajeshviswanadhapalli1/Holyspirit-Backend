@@ -81,6 +81,22 @@ function startDailyPromiseCron() {
     { timezone }
   );
 
+  const pendingSchedule = process.env.DAILY_PROMISE_PENDING_CRON || '*/15 * * * *';
+  if (cron.validate(pendingSchedule)) {
+    cron.schedule(
+      pendingSchedule,
+      () => {
+        runDailyPromiseCatchUp().catch((err) => {
+          console.error('[DailyPromise PendingCheck] Unhandled:', err.message);
+        });
+      },
+      { timezone }
+    );
+    console.log(
+      `[DailyPromise Cron] Pending delivery check every 15 min (${pendingSchedule}, ${timezone})`
+    );
+  }
+
   started = true;
   console.log(
     `[DailyPromise Cron] Every day 12:00 AM ${timezone} — WhatsApp to active daily-promise users ("${schedule}")`
