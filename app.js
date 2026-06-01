@@ -11,20 +11,30 @@ const languageRoutes = require('./routes/languageRoutes');
 const testamentRoutes = require('./routes/testamentRoutes')
 const bookRoutes = require('./routes/bookRoutes')
 const verseRoutes = require('./routes/verseRoutes')
+const bibleRoutes = require('./routes/bibleRoutes')
+const promiseRoutes = require('./routes/promiseRoutes')
+const { startDailyPromiseCron } = require('./jobs/dailyPromiseCron');
 const app = express();
 
 
 app.use(bodyParser.json());
 app.use(cors());
 
-connectDB();
-
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/language', languageRoutes);
 app.use('/api/testament', testamentRoutes);
 app.use('/api/book', bookRoutes)
-app.use('/api/verse', verseRoutes)
+app.use('/api/verse', verseRoutes);
+app.use('/api/bible', bibleRoutes);
+app.use('/api/promises', promiseRoutes)
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// Default 5001: macOS AirPlay Receiver often binds port 5000
+const PORT = process.env.PORT || 5001;
+
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    startDailyPromiseCron();
+  });
+});

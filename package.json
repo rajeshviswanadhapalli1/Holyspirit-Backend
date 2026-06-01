@@ -6,25 +6,37 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "postinstall": "node scripts/patch-node25-deps.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/translate": "^9.1.0",
     "@infobip-api/sdk": "^0.3.2",
+    "axios": "^1.10.0",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
+    "canvas": "^3.1.2",
+    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "fuse.js": "^7.3.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3",
+    "multer": "^2.0.1",
+    "node-cron": "^4.2.1",
     "nodemailer": "^6.9.16",
     "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
     "twilio": "^5.6.1"
   },
   "devDependencies": {

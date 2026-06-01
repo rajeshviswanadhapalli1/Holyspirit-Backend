@@ -1,0 +1,2194 @@
+[
+  {
+    "day": 1,
+    "verse": "Jeremiah 33:3",
+    "english": "Call on Me, I will answer you.",
+    "telugu": "నాకు మొఱ్ఱపెట్టుము, నేను ఉత్తరమిచ్చెదను."
+  },
+  {
+    "day": 2,
+    "verse": "Isaiah 41:10",
+    "english": "Do not fear, I am with you.",
+    "telugu": "భయపడకుము, నేను నీతో ఉన్నాను."
+  },
+  {
+    "day": 3,
+    "verse": "Matthew 11:28",
+    "english": "Come to Me and find rest.",
+    "telugu": "నా యొద్దకు రండి, విశ్రాంతి పొందండి."
+  },
+  {
+    "day": 4,
+    "verse": "Psalm 23:1",
+    "english": "The Lord is my shepherd.",
+    "telugu": "యెహోవా నా కాపరి."
+  },
+  {
+    "day": 5,
+    "verse": "Joshua 1:9",
+    "english": "Be strong and courageous.",
+    "telugu": "ధైర్యంగా ఉండుము."
+  },
+  {
+    "day": 6,
+    "verse": "Psalm 46:1",
+    "english": "God is our refuge.",
+    "telugu": "దేవుడు మన ఆశ్రయం."
+  },
+  {
+    "day": 7,
+    "verse": "Proverbs 3:6",
+    "english": "He will guide your path.",
+    "telugu": "ఆయన నీ మార్గాన్ని నడిపించును."
+  },
+  {
+    "day": 8,
+    "verse": "Romans 8:28",
+    "english": "God works for your good.",
+    "telugu": "దేవుడు నీ మేలుకోసమే పనిచేస్తాడు."
+  },
+  {
+    "day": 9,
+    "verse": "Psalm 91:11",
+    "english": "His angels protect you.",
+    "telugu": "ఆయన దూతలు నిన్ను కాపాడుదురు."
+  },
+  {
+    "day": 10,
+    "verse": "John 14:27",
+    "english": "My peace I give you.",
+    "telugu": "నా సమాధానము మీకు ఇస్తున్నాను."
+  },
+  {
+    "day": 11,
+    "verse": "Philippians 4:13",
+    "english": "You can do all things.",
+    "telugu": "నీవు సమస్తమును చేయగలవు."
+  },
+  {
+    "day": 12,
+    "verse": "Psalm 121:2",
+    "english": "My help comes from God.",
+    "telugu": "నా సహాయం దేవుని నుండి వస్తుంది."
+  },
+  {
+    "day": 13,
+    "verse": "Nahum 1:7",
+    "english": "The Lord cares for you.",
+    "telugu": "యెహోవా నిన్ను కాపాడును."
+  },
+  {
+    "day": 14,
+    "verse": "Deuteronomy 31:8",
+    "english": "God will never leave you.",
+    "telugu": "దేవుడు నిన్ను విడువడు."
+  },
+  {
+    "day": 15,
+    "verse": "Psalm 37:5",
+    "english": "Trust Him completely.",
+    "telugu": "ఆయనను సంపూర్ణంగా నమ్ముము."
+  },
+  {
+    "day": 16,
+    "verse": "Romans 15:13",
+    "english": "God fills you with hope.",
+    "telugu": "దేవుడు నీకు నిరీక్షణ నింపును."
+  },
+  {
+    "day": 17,
+    "verse": "Psalm 34:18",
+    "english": "God is near you.",
+    "telugu": "దేవుడు నీకు సమీపంగా ఉన్నాడు."
+  },
+  {
+    "day": 18,
+    "verse": "Isaiah 40:31",
+    "english": "Your strength will renew.",
+    "telugu": "నీ బలం నూతనమగును."
+  },
+  {
+    "day": 19,
+    "verse": "Hebrews 13:5",
+    "english": "I will never forsake you.",
+    "telugu": "నేను నిన్ను విడువను."
+  },
+  {
+    "day": 20,
+    "verse": "Psalm 32:8",
+    "english": "I will guide you.",
+    "telugu": "నేను నీకు మార్గం చూపెదను."
+  },
+
+  {
+    "day": 21,
+    "verse": "2 Corinthians 5:7",
+    "english": "Walk by faith.",
+    "telugu": "విశ్వాసముచేత నడుచుము."
+  },
+  {
+    "day": 22,
+    "verse": "Psalm 55:22",
+    "english": "Give your burdens to God.",
+    "telugu": "నీ భారమును దేవునిపై వేయుము."
+  },
+  {
+    "day": 23,
+    "verse": "John 16:33",
+    "english": "Take heart and be strong.",
+    "telugu": "ధైర్యంగా ఉండుము."
+  },
+  {
+    "day": 24,
+    "verse": "Psalm 118:24",
+    "english": "Rejoice today.",
+    "telugu": "ఈ దినమున సంతోషించుము."
+  },
+  {
+    "day": 25,
+    "verse": "1 Peter 5:7",
+    "english": "He cares for you.",
+    "telugu": "ఆయన నీ విషయమై చింతించుచున్నాడు."
+  },
+
+  {
+    "day": 26,
+    "verse": "Psalm 27:1",
+    "english": "The Lord is my light.",
+    "telugu": "యెహోవా నా వెలుగు."
+  },
+  {
+    "day": 27,
+    "verse": "Isaiah 26:3",
+    "english": "God gives perfect peace.",
+    "telugu": "దేవుడు సంపూర్ణ సమాధానమిస్తాడు."
+  },
+  {
+    "day": 28,
+    "verse": "Psalm 37:4",
+    "english": "Delight in the Lord.",
+    "telugu": "యెహోవాలో ఆనందించుము."
+  },
+  {
+    "day": 29,
+    "verse": "Matthew 19:26",
+    "english": "All things are possible with God.",
+    "telugu": "దేవునితో సమస్తమును సాధ్యమే."
+  },
+  {
+    "day": 30,
+    "verse": "Psalm 56:3",
+    "english": "Trust God in fear.",
+    "telugu": "భయములో దేవునిని నమ్ముము."
+  },
+  {
+    "day": 31,
+    "verse": "Psalm 62:6",
+    "english": "He is my salvation.",
+    "telugu": "ఆయనే నా రక్షణ."
+  },
+  {
+    "day": 32,
+    "verse": "Romans 12:12",
+    "english": "Be joyful in hope.",
+    "telugu": "నిరీక్షణలో ఆనందించుము."
+  },
+  {
+    "day": 33,
+    "verse": "Psalm 145:18",
+    "english": "God is near to all.",
+    "telugu": "దేవుడు అందరికీ సమీపంగా ఉన్నాడు."
+  },
+  {
+    "day": 34,
+    "verse": "James 1:5",
+    "english": "God gives wisdom freely.",
+    "telugu": "దేవుడు జ్ఞానమును అనుగ్రహిస్తాడు."
+  },
+  {
+    "day": 35,
+    "verse": "Psalm 73:26",
+    "english": "God is my strength.",
+    "telugu": "దేవుడే నా బలం."
+  },
+  {
+    "day": 36,
+    "verse": "Isaiah 43:2",
+    "english": "I will be with you.",
+    "telugu": "నేను నీతో ఉండెదను."
+  },
+  {
+    "day": 37,
+    "verse": "Psalm 119:105",
+    "english": "Your word is my light.",
+    "telugu": "నీ వాక్యము నా వెలుగు."
+  },
+  {
+    "day": 38,
+    "verse": "1 Thessalonians 5:16",
+    "english": "Rejoice always.",
+    "telugu": "ఎల్లప్పుడూ సంతోషించుడి."
+  },
+  {
+    "day": 39,
+    "verse": "Psalm 31:24",
+    "english": "Take courage and hope.",
+    "telugu": "ధైర్యముగా నిరీక్షించుము."
+  },
+  {
+    "day": 40,
+    "verse": "John 8:12",
+    "english": "Jesus is the light.",
+    "telugu": "యేసు లోకానికి వెలుగు."
+  },
+  {
+    "day": 41,
+    "verse": "Psalm 16:8",
+    "english": "God is always with me.",
+    "telugu": "దేవుడు ఎల్లప్పుడూ నాతో ఉన్నాడు."
+  },
+  {
+    "day": 42,
+    "verse": "Matthew 5:14",
+    "english": "You are the light.",
+    "telugu": "మీరు లోకానికి వెలుగు."
+  },
+  {
+    "day": 43,
+    "verse": "Psalm 28:7",
+    "english": "The Lord is my shield.",
+    "telugu": "యెహోవా నా కేడెము."
+  },
+  {
+    "day": 44,
+    "verse": "Galatians 6:9",
+    "english": "Do not give up.",
+    "telugu": "మంచి చేయుటలో అలసిపోకుము."
+  },
+  {
+    "day": 45,
+    "verse": "Psalm 9:9",
+    "english": "God is a safe refuge.",
+    "telugu": "దేవుడు ఆశ్రయస్థానం."
+  },
+  {
+    "day": 46,
+    "verse": "John 10:10",
+    "english": "Jesus gives abundant life.",
+    "telugu": "యేసు సమృద్ధి జీవమిస్తాడు."
+  },
+  {
+    "day": 47,
+    "verse": "Psalm 40:1",
+    "english": "God hears your cry.",
+    "telugu": "దేవుడు నీ మొఱ వినును."
+  },
+  {
+    "day": 48,
+    "verse": "Ephesians 3:20",
+    "english": "God can do more.",
+    "telugu": "దేవుడు అధికముగా చేయగలడు."
+  },
+  {
+    "day": 49,
+    "verse": "Psalm 94:19",
+    "english": "God comforts you.",
+    "telugu": "దేవుడు నిన్ను ఆదరిస్తాడు."
+  },
+  {
+    "day": 50,
+    "verse": "Luke 1:37",
+    "english": "Nothing is impossible with God.",
+    "telugu": "దేవునికి అసాధ్యమేమీ లేదు."
+  },
+  {
+    "day": 51,
+    "verse": "Psalm 18:2",
+    "english": "God is my fortress.",
+    "telugu": "దేవుడు నా కోట."
+  },
+  {
+    "day": 52,
+    "verse": "Romans 10:13",
+    "english": "Everyone who calls is saved.",
+    "telugu": "ఆయనను పిలిచినవాడు రక్షింపబడును."
+  },
+  {
+    "day": 53,
+    "verse": "Psalm 63:7",
+    "english": "You are my help.",
+    "telugu": "నీవే నా సహాయకుడు."
+  },
+  {
+    "day": 54,
+    "verse": "Isaiah 58:11",
+    "english": "God will satisfy you.",
+    "telugu": "దేవుడు నిన్ను తృప్తిపరచును."
+  },
+  {
+    "day": 55,
+    "verse": "Psalm 84:11",
+    "english": "God gives grace and glory.",
+    "telugu": "దేవుడు కృపను మహిమను ఇస్తాడు."
+  },
+  {
+    "day": 56,
+    "verse": "John 6:35",
+    "english": "Jesus is the bread of life.",
+    "telugu": "యేసు జీవాహారము."
+  },
+  {
+    "day": 57,
+    "verse": "Psalm 138:3",
+    "english": "God gives you strength.",
+    "telugu": "దేవుడు నీకు బలమిస్తాడు."
+  },
+  {
+    "day": 58,
+    "verse": "Colossians 3:15",
+    "english": "Let peace rule your heart.",
+    "telugu": "సమాధానము నీ హృదయములో ఏలుగాక."
+  },
+  {
+    "day": 59,
+    "verse": "Psalm 147:3",
+    "english": "God heals the brokenhearted.",
+    "telugu": "దేవుడు మనసు విరిగినవారిని స్వస్థపరచును."
+  },
+  {
+    "day": 60,
+    "verse": "Matthew 6:33",
+    "english": "Seek God first.",
+    "telugu": "మొదట దేవుని వెదకుడి."
+  },
+  {
+    "day": 61,
+    "verse": "Psalm 20:7",
+    "english": "Trust in the Lord.",
+    "telugu": "యెహోవాను నమ్ముము."
+  },
+  {
+    "day": 62,
+    "verse": "Isaiah 30:21",
+    "english": "God will direct you.",
+    "telugu": "దేవుడు నీకు మార్గం చూపును."
+  },
+  {
+    "day": 63,
+    "verse": "Psalm 125:1",
+    "english": "Those who trust God stand firm.",
+    "telugu": "దేవునిని నమ్మినవారు స్థిరంగా ఉంటారు."
+  },
+  {
+    "day": 64,
+    "verse": "Hebrews 11:1",
+    "english": "Faith gives confidence.",
+    "telugu": "విశ్వాసము ధైర్యమిస్తుంది."
+  },
+  {
+    "day": 65,
+    "verse": "Psalm 19:1",
+    "english": "Creation shows God's glory.",
+    "telugu": "సృష్టి దేవుని మహిమను ప్రకటిస్తుంది."
+  },
+  {
+    "day": 66,
+    "verse": "John 14:6",
+    "english": "Jesus is the way.",
+    "telugu": "యేసే మార్గము."
+  },
+  {
+    "day": 67,
+    "verse": "Psalm 3:3",
+    "english": "God lifts your head.",
+    "telugu": "దేవుడు నీ తలను ఎత్తును."
+  },
+  {
+    "day": 68,
+    "verse": "Romans 5:8",
+    "english": "God loves you deeply.",
+    "telugu": "దేవుడు నిన్ను ఎంతో ప్రేమిస్తున్నాడు."
+  },
+  {
+    "day": 69,
+    "verse": "Psalm 90:1",
+    "english": "God is our dwelling place.",
+    "telugu": "దేవుడే మన నివాసస్థలం."
+  },
+  {
+    "day": 70,
+    "verse": "1 John 4:19",
+    "english": "We love because He loved us.",
+    "telugu": "ఆయన ముందుగా ప్రేమించినందున మనము ప్రేమించుచున్నాము."
+  },
+  {
+    "day": 71,
+    "verse": "Psalm 112:7",
+    "english": "Do not fear bad news.",
+    "telugu": "చెడువార్తలకు భయపడకుము."
+  },
+  {
+    "day": 72,
+    "verse": "Matthew 7:7",
+    "english": "Ask and receive.",
+    "telugu": "అడుగుడి మీకియ్యబడును."
+  },
+  {
+    "day": 73,
+    "verse": "Psalm 139:14",
+    "english": "You are wonderfully made.",
+    "telugu": "నీవు ఆశ్చర్యకరంగా నిర్మింపబడినవాడవు."
+  },
+  {
+    "day": 74,
+    "verse": "Romans 6:23",
+    "english": "God gives eternal life.",
+    "telugu": "దేవుడు నిత్యజీవమును అనుగ్రహిస్తాడు."
+  },
+  {
+    "day": 75,
+    "verse": "Psalm 100:5",
+    "english": "God's love never ends.",
+    "telugu": "దేవుని ప్రేమ ఎన్నటికీ తరుగదు."
+  },
+  {
+    "day": 76,
+    "verse": "John 15:5",
+    "english": "Remain in Jesus.",
+    "telugu": "యేసునందు నిలిచియుండుము."
+  },
+  {
+    "day": 77,
+    "verse": "Psalm 30:5",
+    "english": "Joy comes in the morning.",
+    "telugu": "ఉదయమున సంతోషము కలుగును."
+  },
+  {
+    "day": 78,
+    "verse": "2 Timothy 1:7",
+    "english": "God gives power and love.",
+    "telugu": "దేవుడు బలమును ప్రేమను ఇస్తాడు."
+  },
+  {
+    "day": 79,
+    "verse": "Psalm 103:2",
+    "english": "Forget not His benefits.",
+    "telugu": "ఆయన చేసిన మేలులను మరువకుము."
+  },
+  {
+    "day": 80,
+    "verse": "James 4:8",
+    "english": "Draw near to God.",
+    "telugu": "దేవునికి సమీపముగా రండి."
+  },
+  {
+    "day": 81,
+    "verse": "Psalm 119:50",
+    "english": "God's word gives life.",
+    "telugu": "దేవుని వాక్యము జీవమిస్తుంది."
+  },
+  {
+    "day": 82,
+    "verse": "John 1:12",
+    "english": "You are God's child.",
+    "telugu": "నీవు దేవుని సంతానము."
+  },
+  {
+    "day": 83,
+    "verse": "Psalm 86:15",
+    "english": "God is full of mercy.",
+    "telugu": "దేవుడు కనికరముగలవాడు."
+  },
+  {
+    "day": 84,
+    "verse": "Romans 8:1",
+    "english": "There is no condemnation in Christ.",
+    "telugu": "క్రీస్తునందు శిక్ష లేదు."
+  },
+  {
+    "day": 85,
+    "verse": "Psalm 145:9",
+    "english": "God is good to all.",
+    "telugu": "దేవుడు అందరికి మేలుచేయువాడు."
+  },
+  {
+    "day": 86,
+    "verse": "Matthew 28:20",
+    "english": "I am with you always.",
+    "telugu": "నేను ఎల్లప్పుడూ మీతో ఉన్నాను."
+  },
+  {
+    "day": 87,
+    "verse": "Psalm 51:10",
+    "english": "Create a pure heart in me.",
+    "telugu": "నాలో పవిత్ర హృదయము కలుగజేయుము."
+  },
+  {
+    "day": 88,
+    "verse": "Philippians 1:6",
+    "english": "God will complete His work.",
+    "telugu": "దేవుడు తన కార్యమును పూర్తిచేయును."
+  },
+  {
+    "day": 89,
+    "verse": "Psalm 91:2",
+    "english": "God is my refuge.",
+    "telugu": "దేవుడే నా ఆశ్రయం."
+  },
+  {
+    "day": 90,
+    "verse": "Hebrews 4:16",
+    "english": "Come boldly to God.",
+    "telugu": "ధైర్యముగా దేవునియొద్దకు రండి."
+  },
+  {
+    "day": 91,
+    "verse": "Psalm 27:14",
+    "english": "Wait on the Lord.",
+    "telugu": "యెహోవాకై నిరీక్షించుము."
+  },
+  {
+    "day": 92,
+    "verse": "John 3:16",
+    "english": "God loves the world.",
+    "telugu": "దేవుడు లోకమును ప్రేమించాడు."
+  },
+  {
+    "day": 93,
+    "verse": "Psalm 18:30",
+    "english": "God's way is perfect.",
+    "telugu": "దేవుని మార్గము సంపూర్ణము."
+  },
+  {
+    "day": 94,
+    "verse": "Romans 8:37",
+    "english": "You are more than conquerors.",
+    "telugu": "మీరు జయముకంటె ఎక్కువగ జయించువారు."
+  },
+  {
+    "day": 95,
+    "verse": "Psalm 46:10",
+    "english": "Be still and know God.",
+    "telugu": "నిశ్చలముగా ఉండి దేవుని తెలిసికొనుడి."
+  },
+  {
+    "day": 96,
+    "verse": "Isaiah 54:17",
+    "english": "No weapon will prevail.",
+    "telugu": "ఏ ఆయుధమును నీపై విజయము పొందదు."
+  },
+  {
+    "day": 97,
+    "verse": "Psalm 63:1",
+    "english": "Seek God earnestly.",
+    "telugu": "దేవుని ఆసక్తిగా వెదకుము."
+  },
+  {
+    "day": 98,
+    "verse": "Philippians 4:19",
+    "english": "God supplies all your needs.",
+    "telugu": "దేవుడు నీ అవసరాలన్నిటిని తీర్చును."
+  },
+  {
+    "day": 99,
+    "verse": "Psalm 34:8",
+    "english": "Taste and see God's goodness.",
+    "telugu": "దేవుని మేలును రుచి చూచుడి."
+  },
+  {
+    "day": 100,
+    "verse": "Matthew 21:22",
+    "english": "Believe and receive.",
+    "telugu": "నమ్మి అడిగినది పొందుదురు."
+  },
+  {
+    "day": 101,
+    "verse": "Psalm 121:7",
+    "english": "God keeps you safe.",
+    "telugu": "దేవుడు నిన్ను కాపాడును."
+  },
+  {
+    "day": 102,
+    "verse": "John 11:25",
+    "english": "Jesus is the resurrection.",
+    "telugu": "యేసే పునరుత్థానము."
+  },
+  {
+    "day": 103,
+    "verse": "Psalm 138:8",
+    "english": "God fulfills His purpose.",
+    "telugu": "దేవుడు తన సంకల్పమును నెరవేర్చును."
+  },
+  {
+    "day": 104,
+    "verse": "Romans 15:5",
+    "english": "God gives endurance.",
+    "telugu": "దేవుడు సహనమును ఇస్తాడు."
+  },
+  {
+    "day": 105,
+    "verse": "Psalm 84:12",
+    "english": "Blessed are those who trust God.",
+    "telugu": "దేవునిని నమ్మినవారు ధన్యులు."
+  },
+  {
+    "day": 106,
+    "verse": "Luke 18:27",
+    "english": "What is impossible for man is possible with God.",
+    "telugu": "మనుష్యులకు అసాధ్యమైనది దేవునికి సాధ్యమే."
+  },
+  {
+    "day": 107,
+    "verse": "Psalm 62:1",
+    "english": "Rest in God alone.",
+    "telugu": "దేవునియందే విశ్రాంతి పొందుము."
+  },
+  {
+    "day": 108,
+    "verse": "1 Corinthians 16:13",
+    "english": "Stand firm in faith.",
+    "telugu": "విశ్వాసములో స్థిరంగా నిలువుము."
+  },
+  {
+    "day": 109,
+    "verse": "Psalm 5:3",
+    "english": "God hears your morning prayer.",
+    "telugu": "దేవుడు నీ ప్రార్థన వినును."
+  },
+  {
+    "day": 110,
+    "verse": "Isaiah 41:13",
+    "english": "I will help you.",
+    "telugu": "నేను నీకు సహాయము చేయుదును."
+  },
+  {
+    "day": 111,
+    "verse": "Psalm 145:13",
+    "english": "God remains faithful.",
+    "telugu": "దేవుడు నమ్మకమైనవాడు."
+  },
+  {
+    "day": 112,
+    "verse": "John 14:1",
+    "english": "Do not let your heart be troubled.",
+    "telugu": "మీ హృదయం కలవరపడనీయకుడి."
+  },
+  {
+    "day": 113,
+    "verse": "Psalm 147:5",
+    "english": "God's understanding is limitless.",
+    "telugu": "దేవుని జ్ఞానము అపారము."
+  },
+  {
+    "day": 114,
+    "verse": "Romans 5:1",
+    "english": "We have peace with God.",
+    "telugu": "దేవునితో సమాధానము కలిగియున్నాము."
+  },
+  {
+    "day": 115,
+    "verse": "Psalm 40:8",
+    "english": "Delight in God's will.",
+    "telugu": "దేవుని చిత్తములో ఆనందించుము."
+  },
+  {
+    "day": 116,
+    "verse": "2 Corinthians 12:9",
+    "english": "My grace is sufficient.",
+    "telugu": "నా కృప నీకు చాలును."
+  },
+  {
+    "day": 117,
+    "verse": "Psalm 89:8",
+    "english": "God is mighty.",
+    "telugu": "దేవుడు శక్తివంతుడు."
+  },
+  {
+    "day": 118,
+    "verse": "James 1:17",
+    "english": "Every good gift is from God.",
+    "telugu": "ప్రతి మంచి వరము దేవుని నుండి."
+  },
+  {
+    "day": 119,
+    "verse": "Psalm 71:5",
+    "english": "God is my hope.",
+    "telugu": "దేవుడే నా నిరీక్షణ."
+  },
+  {
+    "day": 120,
+    "verse": "John 8:31",
+    "english": "Remain in God's word.",
+    "telugu": "దేవుని వాక్యములో నిలిచియుండుము."
+  },
+  {
+    "day": 121,
+    "verse": "Psalm 33:21",
+    "english": "Trust in His holy name.",
+    "telugu": "ఆయన పరిశుద్ధ నామమును నమ్ముము."
+  },
+  {
+    "day": 122,
+    "verse": "Matthew 5:8",
+    "english": "Blessed are the pure in heart.",
+    "telugu": "హృదయశుద్ధిగలవారు ధన్యులు."
+  },
+  {
+    "day": 123,
+    "verse": "Psalm 61:2",
+    "english": "Lead me to the rock.",
+    "telugu": "నన్ను ఆశ్రయ శిలవద్దకు నడిపించుము."
+  },
+  {
+    "day": 124,
+    "verse": "Romans 8:39",
+    "english": "Nothing can separate us from God's love.",
+    "telugu": "దేవుని ప్రేమనుండి ఏదియు వేరు చేయలేదు."
+  },
+  {
+    "day": 125,
+    "verse": "Psalm 16:11",
+    "english": "You fill me with joy.",
+    "telugu": "నీవు నాకు ఆనందమును నింపుచున్నావు."
+  },
+  {
+    "day": 126,
+    "verse": "Hebrews 10:23",
+    "english": "Hold firmly to hope.",
+    "telugu": "నిరీక్షణను గట్టిగా పట్టుకొనుడి."
+  },
+  {
+    "day": 127,
+    "verse": "Psalm 143:8",
+    "english": "Show me the way to go.",
+    "telugu": "నేను నడవవలసిన మార్గము చూపుము."
+  },
+  {
+    "day": 128,
+    "verse": "John 15:9",
+    "english": "Remain in My love.",
+    "telugu": "నా ప్రేమలో నిలిచియుండుడి."
+  },
+  {
+    "day": 129,
+    "verse": "Psalm 119:114",
+    "english": "God is my refuge.",
+    "telugu": "దేవుడే నా ఆశ్రయం."
+  },
+  {
+    "day": 130,
+    "verse": "1 John 1:9",
+    "english": "God forgives faithfully.",
+    "telugu": "దేవుడు విశ్వాసముగా క్షమించును."
+  },
+  {
+    "day": 131,
+    "verse": "Psalm 145:14",
+    "english": "God lifts those who fall.",
+    "telugu": "పడినవారిని దేవుడు లేపును."
+  },
+  {
+    "day": 132,
+    "verse": "Matthew 11:29",
+    "english": "Learn from Me.",
+    "telugu": "నా యొద్ద నేర్చుకొనుడి."
+  },
+  {
+    "day": 133,
+    "verse": "Psalm 95:1",
+    "english": "Sing joyfully to God.",
+    "telugu": "దేవునికి సంతోషముగా పాడుడి."
+  },
+  {
+    "day": 134,
+    "verse": "Romans 6:14",
+    "english": "Grace rules over you.",
+    "telugu": "కృప మీపై ఏలుచున్నది."
+  },
+  {
+    "day": 135,
+    "verse": "Psalm 103:8",
+    "english": "God is compassionate.",
+    "telugu": "దేవుడు కనికరముగలవాడు."
+  },
+  {
+    "day": 136,
+    "verse": "Isaiah 12:2",
+    "english": "God is my salvation.",
+    "telugu": "దేవుడే నా రక్షణ."
+  },
+  {
+    "day": 137,
+    "verse": "Psalm 31:7",
+    "english": "God sees your troubles.",
+    "telugu": "దేవుడు నీ బాధలను చూచుచున్నాడు."
+  },
+  {
+    "day": 138,
+    "verse": "Galatians 5:22",
+    "english": "Live in the Spirit.",
+    "telugu": "ఆత్మలో జీవించుడి."
+  },
+  {
+    "day": 139,
+    "verse": "Psalm 13:5",
+    "english": "Trust in God's love.",
+    "telugu": "దేవుని ప్రేమను నమ్ముము."
+  },
+  {
+    "day": 140,
+    "verse": "John 6:37",
+    "english": "I will never reject you.",
+    "telugu": "నేను నిన్ను ఎన్నడును త్రోసివేయను."
+  },
+  {
+    "day": 141,
+    "verse": "Psalm 57:1",
+    "english": "Take refuge in God.",
+    "telugu": "దేవునియందు ఆశ్రయము పొందుము."
+  },
+  {
+    "day": 142,
+    "verse": "Romans 12:21",
+    "english": "Overcome evil with good.",
+    "telugu": "మంచితో చెడును జయించుము."
+  },
+  {
+    "day": 143,
+    "verse": "Psalm 23:4",
+    "english": "Fear no evil.",
+    "telugu": "ఏ అపాయమునకును భయపడను."
+  },
+  {
+    "day": 144,
+    "verse": "Ephesians 6:10",
+    "english": "Be strong in the Lord.",
+    "telugu": "ప్రభువులో బలపడుడి."
+  },
+  {
+    "day": 145,
+    "verse": "Psalm 37:23",
+    "english": "God orders your steps.",
+    "telugu": "దేవుడు నీ అడుగులను స్థిరపరచును."
+  },
+  {
+    "day": 146,
+    "verse": "John 14:18",
+    "english": "I will not leave you alone.",
+    "telugu": "నేను మిమ్మును అనాథలుగా విడువను."
+  },
+  {
+    "day": 147,
+    "verse": "Psalm 119:133",
+    "english": "Direct my footsteps.",
+    "telugu": "నా అడుగులను నడిపించుము."
+  },
+  {
+    "day": 148,
+    "verse": "Romans 15:7",
+    "english": "Accept one another.",
+    "telugu": "ఒకరినొకరు అంగీకరించుకొనుడి."
+  },
+  {
+    "day": 149,
+    "verse": "Psalm 130:5",
+    "english": "Hope in God's word.",
+    "telugu": "దేవుని వాక్యములో నిరీక్షించుము."
+  },
+  {
+    "day": 150,
+    "verse": "Matthew 6:26",
+    "english": "God cares for you.",
+    "telugu": "దేవుడు నీకై శ్రద్ధ వహించుచున్నాడు."
+  },
+  {
+    "day": 151,
+    "verse": "Psalm 91:4",
+    "english": "God covers you with His wings.",
+    "telugu": "దేవుడు తన రెక్కలతో నిన్ను కప్పును."
+  },
+  {
+    "day": 152,
+    "verse": "Colossians 3:2",
+    "english": "Set your mind above.",
+    "telugu": "పైవాటిమీద మనస్సు నిలుపుము."
+  },
+  {
+    "day": 153,
+    "verse": "Psalm 18:1",
+    "english": "I love You, Lord.",
+    "telugu": "యెహోవా, నేను నిన్ను ప్రేమించుచున్నాను."
+  },
+  {
+    "day": 154,
+    "verse": "Isaiah 55:8",
+    "english": "God's thoughts are higher.",
+    "telugu": "దేవుని ఆలోచనలు ఉన్నతమైనవి."
+  },
+  {
+    "day": 155,
+    "verse": "Psalm 34:4",
+    "english": "God delivers from fear.",
+    "telugu": "దేవుడు భయమునుండి విడిపించును."
+  },
+  {
+    "day": 156,
+    "verse": "Matthew 28:6",
+    "english": "He is risen.",
+    "telugu": "ఆయన లేచియున్నాడు."
+  },
+  {
+    "day": 157,
+    "verse": "Psalm 63:3",
+    "english": "God's love is better than life.",
+    "telugu": "దేవుని ప్రేమ జీవముకంటె మిన్నది."
+  },
+  {
+    "day": 158,
+    "verse": "Romans 14:8",
+    "english": "We belong to the Lord.",
+    "telugu": "మనము ప్రభువారివారము."
+  },
+  {
+    "day": 159,
+    "verse": "Psalm 119:11",
+    "english": "Keep God's word in your heart.",
+    "telugu": "దేవుని వాక్యమును హృదయంలో దాచుకొనుము."
+  },
+  {
+    "day": 160,
+    "verse": "John 1:5",
+    "english": "Light shines in darkness.",
+    "telugu": "చీకటిలో వెలుగు ప్రకాశించుచున్నది."
+  },
+  {
+    "day": 161,
+    "verse": "Psalm 46:5",
+    "english": "God is within you.",
+    "telugu": "దేవుడు నీలోనున్నాడు."
+  },
+  {
+    "day": 162,
+    "verse": "Hebrews 11:6",
+    "english": "Faith pleases God.",
+    "telugu": "విశ్వాసము దేవునికి ఇష్టము."
+  },
+  {
+    "day": 163,
+    "verse": "Psalm 9:10",
+    "english": "God never forsakes seekers.",
+    "telugu": "దేవుడు తనను వెదికినవారిని విడువడు."
+  },
+  {
+    "day": 164,
+    "verse": "John 16:22",
+    "english": "Your joy will remain.",
+    "telugu": "మీ ఆనందము నిలిచియుండును."
+  },
+  {
+    "day": 165,
+    "verse": "Psalm 71:14",
+    "english": "Hope continually in God.",
+    "telugu": "ఎల్లప్పుడూ దేవునియందు నిరీక్షించుము."
+  },
+  {
+    "day": 166,
+    "verse": "Isaiah 60:1",
+    "english": "Rise and shine.",
+    "telugu": "లేచి ప్రకాశించుము."
+  },
+  {
+    "day": 167,
+    "verse": "Psalm 32:7",
+    "english": "God surrounds you with deliverance.",
+    "telugu": "దేవుడు రక్షణతో నిన్ను చుట్టుకొనును."
+  },
+  {
+    "day": 168,
+    "verse": "Romans 8:6",
+    "english": "The Spirit gives life and peace.",
+    "telugu": "ఆత్మ జీవమును సమాధానమును ఇస్తుంది."
+  },
+  {
+    "day": 169,
+    "verse": "Psalm 19:14",
+    "english": "May my words please You.",
+    "telugu": "నా మాటలు నీకు ఇష్టమగునుగాక."
+  },
+  {
+    "day": 170,
+    "verse": "Matthew 5:16",
+    "english": "Let your light shine.",
+    "telugu": "మీ వెలుగు ప్రకాశించనీయుడి."
+  },
+  {
+    "day": 171,
+    "verse": "Psalm 37:39",
+    "english": "God is your stronghold.",
+    "telugu": "దేవుడు నీ బలమైన ఆశ్రయం."
+  },
+  {
+    "day": 172,
+    "verse": "James 1:12",
+    "english": "Blessed is the one who perseveres.",
+    "telugu": "సహనముగలవాడు ధన్యుడు."
+  },
+  {
+    "day": 173,
+    "verse": "Psalm 145:19",
+    "english": "God hears your cry.",
+    "telugu": "దేవుడు నీ మొఱ వినును."
+  },
+  {
+    "day": 174,
+    "verse": "John 14:23",
+    "english": "God dwells with those who love Him.",
+    "telugu": "దేవుడు తనను ప్రేమించువారితో నివసించును."
+  },
+  {
+    "day": 175,
+    "verse": "Psalm 84:5",
+    "english": "Strength comes from God.",
+    "telugu": "బలం దేవుని నుండి వస్తుంది."
+  },
+  {
+    "day": 176,
+    "verse": "Romans 8:18",
+    "english": "Future glory is greater.",
+    "telugu": "రాబోయే మహిమ గొప్పది."
+  },
+  {
+    "day": 177,
+    "verse": "Psalm 30:11",
+    "english": "God turns sorrow into joy.",
+    "telugu": "దేవుడు దుఃఖమును ఆనందముగా మార్చును."
+  },
+  {
+    "day": 178,
+    "verse": "1 Peter 2:9",
+    "english": "You are chosen by God.",
+    "telugu": "నీవు దేవునిచేత ఏర్పరచబడినవాడవు."
+  },
+  {
+    "day": 179,
+    "verse": "Psalm 112:4",
+    "english": "Light rises in darkness.",
+    "telugu": "చీకటిలో వెలుగు ఉదయించును."
+  },
+  {
+    "day": 180,
+    "verse": "Matthew 19:14",
+    "english": "The kingdom belongs to children.",
+    "telugu": "దేవుని రాజ్యము పిల్లలదే."
+  },
+  {
+    "day": 181,
+    "verse": "Psalm 119:165",
+    "english": "Great peace belongs to God's people.",
+    "telugu": "దేవుని వారికే గొప్ప సమాధానము."
+  },
+  {
+    "day": 182,
+    "verse": "John 10:27",
+    "english": "My sheep hear My voice.",
+    "telugu": "నా గొఱ్ఱెలు నా స్వరము వినును."
+  },
+  {
+    "day": 183,
+    "verse": "Psalm 56:11",
+    "english": "Trust God without fear.",
+    "telugu": "భయపడక దేవునిని నమ్ముము."
+  },
+  {
+    "day": 184,
+    "verse": "Romans 8:31",
+    "english": "God is for you.",
+    "telugu": "దేవుడు నీ పక్షమున ఉన్నాడు."
+  },
+  {
+    "day": 185,
+    "verse": "Psalm 27:13",
+    "english": "You will see God's goodness.",
+    "telugu": "దేవుని మేలును చూచెదవు."
+  },
+  {
+    "day": 186,
+    "verse": "Matthew 6:34",
+    "english": "Do not worry about tomorrow.",
+    "telugu": "రేపటి సంగతి చింతించకుము."
+  },
+  {
+    "day": 187,
+    "verse": "Psalm 138:7",
+    "english": "God preserves your life.",
+    "telugu": "దేవుడు నీ ప్రాణమును కాపాడును."
+  },
+  {
+    "day": 188,
+    "verse": "Philippians 4:6",
+    "english": "Pray about everything.",
+    "telugu": "ప్రతి విషయములో ప్రార్థించుడి."
+  },
+  {
+    "day": 189,
+    "verse": "Psalm 16:1",
+    "english": "Keep me safe, O God.",
+    "telugu": "దేవా, నన్ను కాపాడుము."
+  },
+  {
+    "day": 190,
+    "verse": "Isaiah 26:4",
+    "english": "Trust God forever.",
+    "telugu": "ఎల్లప్పుడూ దేవునిని నమ్ముము."
+  },
+  {
+    "day": 191,
+    "verse": "Psalm 37:7",
+    "english": "Be still before God.",
+    "telugu": "దేవుని సన్నిధిలో నిశ్చలముగా ఉండుము."
+  },
+  {
+    "day": 192,
+    "verse": "John 15:7",
+    "english": "Remain in Me and pray.",
+    "telugu": "నాలో నిలిచి ప్రార్థించుడి."
+  },
+  {
+    "day": 193,
+    "verse": "Psalm 86:5",
+    "english": "God is ready to forgive.",
+    "telugu": "దేవుడు క్షమించుటకు సిద్ధముగా ఉన్నాడు."
+  },
+  {
+    "day": 194,
+    "verse": "Romans 10:9",
+    "english": "Believe and be saved.",
+    "telugu": "నమ్మి రక్షణ పొందుము."
+  },
+  {
+    "day": 195,
+    "verse": "Psalm 145:8",
+    "english": "God is gracious.",
+    "telugu": "దేవుడు కృపగలవాడు."
+  },
+  {
+    "day": 196,
+    "verse": "Matthew 7:11",
+    "english": "God gives good gifts.",
+    "telugu": "దేవుడు మంచి వరములు ఇస్తాడు."
+  },
+  {
+    "day": 197,
+    "verse": "Psalm 31:19",
+    "english": "God's goodness is abundant.",
+    "telugu": "దేవుని మేలులు అపారమైనవి."
+  },
+  {
+    "day": 198,
+    "verse": "Hebrews 13:8",
+    "english": "Jesus never changes.",
+    "telugu": "యేసు ఎప్పటికీ మారడు."
+  },
+  {
+    "day": 199,
+    "verse": "Psalm 23:6",
+    "english": "Goodness and mercy follow you.",
+    "telugu": "మేలు కృపలు నిన్ను వెంబడించును."
+  },
+  {
+    "day": 200,
+    "verse": "James 4:10",
+    "english": "God lifts the humble.",
+    "telugu": "దేవుడు వినమ్రులను ఎత్తును."
+  },
+  {
+    "day": 201,
+    "verse": "Psalm 121:5",
+    "english": "God watches over you.",
+    "telugu": "దేవుడు నిన్ను కాపాడుచున్నాడు."
+  },
+  {
+    "day": 202,
+    "verse": "John 14:13",
+    "english": "Ask in My name.",
+    "telugu": "నా నామమున అడుగుడి."
+  },
+  {
+    "day": 203,
+    "verse": "Psalm 145:17",
+    "english": "God is righteous in all ways.",
+    "telugu": "దేవుడు తన మార్గములన్నిటిలో నీతిమంతుడు."
+  },
+  {
+    "day": 204,
+    "verse": "Romans 15:4",
+    "english": "Scripture gives hope.",
+    "telugu": "లేఖనములు నిరీక్షణనిస్తాయి."
+  },
+  {
+    "day": 205,
+    "verse": "Psalm 28:9",
+    "english": "God shepherds His people.",
+    "telugu": "దేవుడు తన ప్రజలను కాపాడును."
+  },
+  {
+    "day": 206,
+    "verse": "Matthew 5:9",
+    "english": "Blessed are peacemakers.",
+    "telugu": "సమాధానకర్తలు ధన్యులు."
+  },
+  {
+    "day": 207,
+    "verse": "Psalm 34:1",
+    "english": "Praise God continually.",
+    "telugu": "ఎల్లప్పుడూ దేవునిని స్తుతించుము."
+  },
+  {
+    "day": 208,
+    "verse": "Colossians 3:15",
+    "english": "Let Christ's peace rule.",
+    "telugu": "క్రీస్తు సమాధానము ఏలుగాక."
+  },
+  {
+    "day": 209,
+    "verse": "Psalm 62:8",
+    "english": "Pour out your heart to God.",
+    "telugu": "నీ హృదయమును దేవునియెదుట కుమ్మరించుము."
+  },
+  {
+    "day": 210,
+    "verse": "1 John 5:14",
+    "english": "God hears our prayers.",
+    "telugu": "దేవుడు మన ప్రార్థనలు వినును."
+  },
+  {
+    "day": 211,
+    "verse": "Psalm 95:6",
+    "english": "Worship the Lord with joy.",
+    "telugu": "సంతోషముతో దేవునిని ఆరాధించుము."
+  },
+  {
+    "day": 212,
+    "verse": "John 16:24",
+    "english": "Ask and your joy will be full.",
+    "telugu": "అడుగుడి, మీ ఆనందము సంపూర్ణమగును."
+  },
+  {
+    "day": 213,
+    "verse": "Psalm 27:4",
+    "english": "Seek God's presence daily.",
+    "telugu": "ప్రతిదినము దేవుని సన్నిధిని వెదకుము."
+  },
+  {
+    "day": 214,
+    "verse": "Romans 8:2",
+    "english": "The Spirit gives freedom.",
+    "telugu": "ఆత్మ స్వాతంత్ర్యమును ఇస్తుంది."
+  },
+  {
+    "day": 215,
+    "verse": "Psalm 103:11",
+    "english": "God's love is great.",
+    "telugu": "దేవుని ప్రేమ గొప్పది."
+  },
+  {
+    "day": 216,
+    "verse": "Matthew 5:6",
+    "english": "Those who seek righteousness are blessed.",
+    "telugu": "నీతిని ఆశించువారు ధన్యులు."
+  },
+  {
+    "day": 217,
+    "verse": "Psalm 42:1",
+    "english": "My soul thirsts for God.",
+    "telugu": "నా ఆత్మ దేవునికై ఆశపడుచున్నది."
+  },
+  {
+    "day": 218,
+    "verse": "Philippians 4:7",
+    "english": "God's peace guards your heart.",
+    "telugu": "దేవుని సమాధానము నీ హృదయమును కాపాడును."
+  },
+  {
+    "day": 219,
+    "verse": "Psalm 119:28",
+    "english": "God strengthens you.",
+    "telugu": "దేవుడు నిన్ను బలపరచును."
+  },
+  {
+    "day": 220,
+    "verse": "Isaiah 40:29",
+    "english": "God gives strength to the weak.",
+    "telugu": "దేవుడు బలహీనులకు బలమిస్తాడు."
+  },
+  {
+    "day": 221,
+    "verse": "Psalm 18:32",
+    "english": "God equips you with strength.",
+    "telugu": "దేవుడు నీకు బలమును ప్రసాదించును."
+  },
+  {
+    "day": 222,
+    "verse": "John 4:14",
+    "english": "Jesus gives living water.",
+    "telugu": "యేసు జీవజలమును ఇస్తాడు."
+  },
+  {
+    "day": 223,
+    "verse": "Psalm 119:50",
+    "english": "God's promise preserves life.",
+    "telugu": "దేవుని వాగ్దానము జీవమిస్తుంది."
+  },
+  {
+    "day": 224,
+    "verse": "Romans 5:5",
+    "english": "God's love fills hearts.",
+    "telugu": "దేవుని ప్రేమ హృదయములను నింపును."
+  },
+  {
+    "day": 225,
+    "verse": "Psalm 25:5",
+    "english": "Lead me in truth.",
+    "telugu": "నన్ను సత్యములో నడిపించుము."
+  },
+  {
+    "day": 226,
+    "verse": "Matthew 11:30",
+    "english": "My burden is light.",
+    "telugu": "నా భారము తేలికైనది."
+  },
+  {
+    "day": 227,
+    "verse": "Psalm 73:28",
+    "english": "It is good to be near God.",
+    "telugu": "దేవునికి సమీపముగా ఉండుట మేలు."
+  },
+  {
+    "day": 228,
+    "verse": "Hebrews 6:19",
+    "english": "Hope is our anchor.",
+    "telugu": "నిరీక్షణ మనకు నంగరము."
+  },
+  {
+    "day": 229,
+    "verse": "Psalm 121:8",
+    "english": "God watches over your life.",
+    "telugu": "దేవుడు నీ జీవమును కాపాడును."
+  },
+  {
+    "day": 230,
+    "verse": "John 8:36",
+    "english": "Jesus sets you free.",
+    "telugu": "యేసు మిమ్మును స్వతంత్రులను చేయును."
+  },
+  {
+    "day": 231,
+    "verse": "Psalm 34:17",
+    "english": "God hears the righteous.",
+    "telugu": "దేవుడు నీతిమంతుల మొఱ వినును."
+  },
+  {
+    "day": 232,
+    "verse": "Romans 8:26",
+    "english": "The Spirit helps you pray.",
+    "telugu": "ఆత్మ ప్రార్థనలో సహాయపడును."
+  },
+  {
+    "day": 233,
+    "verse": "Psalm 118:6",
+    "english": "The Lord is with me.",
+    "telugu": "ప్రభువు నాతో ఉన్నాడు."
+  },
+  {
+    "day": 234,
+    "verse": "Isaiah 43:1",
+    "english": "You belong to God.",
+    "telugu": "నీవు దేవునివాడవు."
+  },
+  {
+    "day": 235,
+    "verse": "Psalm 145:18",
+    "english": "God is near to those who call Him.",
+    "telugu": "దేవుని పిలిచినవారికి ఆయన సమీపముగా ఉన్నాడు."
+  },
+  {
+    "day": 236,
+    "verse": "James 1:17",
+    "english": "Every blessing comes from God.",
+    "telugu": "ప్రతి ఆశీర్వాదము దేవుని నుండి."
+  },
+  {
+    "day": 237,
+    "verse": "Psalm 27:1",
+    "english": "God is my salvation.",
+    "telugu": "దేవుడే నా రక్షణ."
+  },
+  {
+    "day": 238,
+    "verse": "John 15:11",
+    "english": "Jesus gives complete joy.",
+    "telugu": "యేసు సంపూర్ణ ఆనందమును ఇస్తాడు."
+  },
+  {
+    "day": 239,
+    "verse": "Psalm 91:1",
+    "english": "Rest in God's shelter.",
+    "telugu": "దేవుని నీడలో విశ్రాంతి పొందుము."
+  },
+  {
+    "day": 240,
+    "verse": "Romans 15:13",
+    "english": "God fills you with peace and hope.",
+    "telugu": "దేవుడు నీకు సమాధానమును నిరీక్షణను నింపును."
+  },
+  {
+    "day": 241,
+    "verse": "Psalm 46:7",
+    "english": "God is with us.",
+    "telugu": "దేవుడు మనతో ఉన్నాడు."
+  },
+  {
+    "day": 242,
+    "verse": "Matthew 28:20",
+    "english": "I am with you always.",
+    "telugu": "నేను ఎల్లప్పుడూ మీతో ఉన్నాను."
+  },
+  {
+    "day": 243,
+    "verse": "Psalm 119:105",
+    "english": "God's word lights your path.",
+    "telugu": "దేవుని వాక్యము నీ మార్గమునకు వెలుగు."
+  },
+  {
+    "day": 244,
+    "verse": "Romans 12:2",
+    "english": "Be transformed by renewal.",
+    "telugu": "మనస్సు నూతనమగుటచేత మార్పు పొందుము."
+  },
+  {
+    "day": 245,
+    "verse": "Psalm 37:39",
+    "english": "God is your refuge in trouble.",
+    "telugu": "ఆపదలో దేవుడు నీ ఆశ్రయం."
+  },
+  {
+    "day": 246,
+    "verse": "John 14:6",
+    "english": "Jesus is the truth and life.",
+    "telugu": "యేసే సత్యము మరియు జీవము."
+  },
+  {
+    "day": 247,
+    "verse": "Psalm 5:12",
+    "english": "God surrounds you with favor.",
+    "telugu": "దేవుడు కృపతో నిన్ను చుట్టుకొనును."
+  },
+  {
+    "day": 248,
+    "verse": "Isaiah 41:13",
+    "english": "Do not fear, I will help you.",
+    "telugu": "భయపడకుము, నేను నీకు సహాయపడెదను."
+  },
+  {
+    "day": 249,
+    "verse": "Psalm 63:8",
+    "english": "Hold tightly to God.",
+    "telugu": "దేవునిని గట్టిగా పట్టుకొనుము."
+  },
+  {
+    "day": 250,
+    "verse": "Philippians 4:4",
+    "english": "Rejoice in the Lord always.",
+    "telugu": "ఎల్లప్పుడూ ప్రభువులో సంతోషించుడి."
+  },
+  {
+    "day": 251,
+    "verse": "Psalm 91:2",
+    "english": "God is my fortress.",
+    "telugu": "దేవుడు నా కోట."
+  },
+  {
+    "day": 252,
+    "verse": "Romans 8:28",
+    "english": "God works all things for good.",
+    "telugu": "దేవుడు సమస్తమును మేలుకోసమే చేయును."
+  },
+  {
+    "day": 253,
+    "verse": "Psalm 145:9",
+    "english": "God is good to all.",
+    "telugu": "దేవుడు అందరికి మేలుచేయువాడు."
+  },
+  {
+    "day": 254,
+    "verse": "John 1:12",
+    "english": "You are God's child.",
+    "telugu": "నీవు దేవుని సంతానము."
+  },
+  {
+    "day": 255,
+    "verse": "Psalm 112:7",
+    "english": "Trust God without fear.",
+    "telugu": "భయపడక దేవునిని నమ్ముము."
+  },
+  {
+    "day": 256,
+    "verse": "Hebrews 13:6",
+    "english": "The Lord is my helper.",
+    "telugu": "ప్రభువే నా సహాయకుడు."
+  },
+  {
+    "day": 257,
+    "verse": "Psalm 31:24",
+    "english": "Be strong and hopeful.",
+    "telugu": "ధైర్యముగా నిరీక్షించుము."
+  },
+  {
+    "day": 258,
+    "verse": "Matthew 7:7",
+    "english": "Seek and you will find.",
+    "telugu": "వెదకుడి మీకు దొరకును."
+  },
+  {
+    "day": 259,
+    "verse": "Psalm 16:8",
+    "english": "God stands beside you.",
+    "telugu": "దేవుడు నీ పక్కనే ఉన్నాడు."
+  },
+  {
+    "day": 260,
+    "verse": "Romans 5:1",
+    "english": "We have peace with God.",
+    "telugu": "దేవునితో సమాధానము కలిగియున్నాము."
+  },
+  {
+    "day": 261,
+    "verse": "Psalm 18:2",
+    "english": "God is my deliverer.",
+    "telugu": "దేవుడు నా విడిపింపువాడు."
+  },
+  {
+    "day": 262,
+    "verse": "John 10:10",
+    "english": "Jesus gives abundant life.",
+    "telugu": "యేసు సమృద్ధి జీవమును ఇస్తాడు."
+  },
+  {
+    "day": 263,
+    "verse": "Psalm 147:3",
+    "english": "God heals the brokenhearted.",
+    "telugu": "దేవుడు మనసు విరిగినవారిని స్వస్థపరచును."
+  },
+  {
+    "day": 264,
+    "verse": "James 1:5",
+    "english": "Ask God for wisdom.",
+    "telugu": "జ్ఞానముకోరకు దేవునిని అడుగుము."
+  },
+  {
+    "day": 265,
+    "verse": "Psalm 34:18",
+    "english": "God is near the brokenhearted.",
+    "telugu": "దేవుడు మనసు విరిగినవారికి సమీపముగా ఉన్నాడు."
+  },
+  {
+    "day": 266,
+    "verse": "Isaiah 40:31",
+    "english": "Hope in God renews strength.",
+    "telugu": "దేవునియందు నిరీక్షణ బలమును నూతనపరచును."
+  },
+  {
+    "day": 267,
+    "verse": "Psalm 118:24",
+    "english": "Rejoice in this day.",
+    "telugu": "ఈ దినమున సంతోషించుడి."
+  },
+  {
+    "day": 268,
+    "verse": "Romans 10:13",
+    "english": "Everyone who calls on God is saved.",
+    "telugu": "దేవుని పిలిచినవాడు రక్షింపబడును."
+  },
+  {
+    "day": 269,
+    "verse": "Psalm 145:18",
+    "english": "God is near when you pray.",
+    "telugu": "ప్రార్థించినపుడు దేవుడు సమీపముగా ఉన్నాడు."
+  },
+  {
+    "day": 270,
+    "verse": "John 14:27",
+    "english": "Jesus gives true peace.",
+    "telugu": "యేసు నిజమైన సమాధానమును ఇస్తాడు."
+  },
+  {
+    "day": 271,
+    "verse": "Psalm 27:1",
+    "english": "The Lord is my light and salvation.",
+    "telugu": "యెహోవా నా వెలుగు మరియు రక్షణ."
+  },
+  {
+    "day": 272,
+    "verse": "Matthew 5:14",
+    "english": "You are the light of the world.",
+    "telugu": "మీరు లోకానికి వెలుగు."
+  },
+  {
+    "day": 273,
+    "verse": "Psalm 23:1",
+    "english": "The Lord is my shepherd.",
+    "telugu": "యెహోవా నా కాపరి."
+  },
+  {
+    "day": 274,
+    "verse": "Romans 8:37",
+    "english": "You are more than conquerors.",
+    "telugu": "మీరు మహా జయవంతులు."
+  },
+  {
+    "day": 275,
+    "verse": "Psalm 119:11",
+    "english": "Keep God's word in your heart.",
+    "telugu": "దేవుని వాక్యమును హృదయంలో దాచుకొనుము."
+  },
+  {
+    "day": 276,
+    "verse": "John 15:5",
+    "english": "Remain in Jesus.",
+    "telugu": "యేసునందు నిలిచియుండుము."
+  },
+  {
+    "day": 277,
+    "verse": "Psalm 46:10",
+    "english": "Be still and know God.",
+    "telugu": "నిశ్చలముగా ఉండి దేవుని తెలిసికొనుము."
+  },
+  {
+    "day": 278,
+    "verse": "Philippians 4:13",
+    "english": "You can do all things through Christ.",
+    "telugu": "క్రీస్తుద్వారా సమస్తమును చేయగలవు."
+  },
+  {
+    "day": 279,
+    "verse": "Psalm 100:5",
+    "english": "God's love endures forever.",
+    "telugu": "దేవుని ప్రేమ నిత్యముండును."
+  },
+  {
+    "day": 280,
+    "verse": "Isaiah 41:10",
+    "english": "Do not fear, God is with you.",
+    "telugu": "భయపడకుము, దేవుడు నీతో ఉన్నాడు."
+  },
+  {
+    "day": 281,
+    "verse": "Psalm 121:2",
+    "english": "My help comes from God.",
+    "telugu": "నా సహాయం దేవుని నుండి."
+  },
+  {
+    "day": 282,
+    "verse": "Matthew 11:28",
+    "english": "Come to Jesus for rest.",
+    "telugu": "విశ్రాంతికై యేసునొద్దకు రండి."
+  },
+  {
+    "day": 283,
+    "verse": "Psalm 34:8",
+    "english": "Taste and see God's goodness.",
+    "telugu": "దేవుని మేలును రుచి చూచుడి."
+  },
+  {
+    "day": 284,
+    "verse": "John 8:12",
+    "english": "Jesus is the light of life.",
+    "telugu": "యేసు జీవవెలుగు."
+  },
+  {
+    "day": 285,
+    "verse": "Psalm 145:9",
+    "english": "God is good to everyone.",
+    "telugu": "దేవుడు అందరికి మేలుచేయువాడు."
+  },
+  {
+    "day": 286,
+    "verse": "Romans 15:13",
+    "english": "God fills you with hope.",
+    "telugu": "దేవుడు నీకు నిరీక్షణ నింపును."
+  },
+  {
+    "day": 287,
+    "verse": "Psalm 91:11",
+    "english": "God's angels protect you.",
+    "telugu": "దేవుని దూతలు నిన్ను కాపాడుదురు."
+  },
+  {
+    "day": 288,
+    "verse": "James 1:12",
+    "english": "Those who endure are blessed.",
+    "telugu": "సహించినవారు ధన్యులు."
+  },
+  {
+    "day": 289,
+    "verse": "Psalm 32:8",
+    "english": "God will teach you the way.",
+    "telugu": "దేవుడు నీకు మార్గము నేర్పును."
+  },
+  {
+    "day": 290,
+    "verse": "John 14:1",
+    "english": "Trust in God.",
+    "telugu": "దేవునిని నమ్ముడి."
+  },
+  {
+    "day": 291,
+    "verse": "Psalm 55:22",
+    "english": "Give your burdens to God.",
+    "telugu": "నీ భారమును దేవునిపై వేయుము."
+  },
+  {
+    "day": 292,
+    "verse": "Hebrews 13:5",
+    "english": "God will never leave you.",
+    "telugu": "దేవుడు నిన్ను విడువడు."
+  },
+  {
+    "day": 293,
+    "verse": "Psalm 118:6",
+    "english": "The Lord is on my side.",
+    "telugu": "ప్రభువు నా పక్షమున ఉన్నాడు."
+  },
+  {
+    "day": 294,
+    "verse": "Romans 5:8",
+    "english": "God showed His love for us.",
+    "telugu": "దేవుడు తన ప్రేమను చూపించాడు."
+  },
+  {
+    "day": 295,
+    "verse": "Psalm 63:1",
+    "english": "My soul longs for God.",
+    "telugu": "నా ఆత్మ దేవునికై ఆశపడుచున్నది."
+  },
+  {
+    "day": 296,
+    "verse": "John 3:16",
+    "english": "God loves the world.",
+    "telugu": "దేవుడు లోకమును ప్రేమించాడు."
+  },
+  {
+    "day": 297,
+    "verse": "Psalm 37:5",
+    "english": "Commit your way to God.",
+    "telugu": "నీ మార్గమును దేవునికి అప్పగించుము."
+  },
+  {
+    "day": 298,
+    "verse": "Isaiah 26:3",
+    "english": "God gives perfect peace.",
+    "telugu": "దేవుడు సంపూర్ణ సమాధానమును ఇస్తాడు."
+  },
+  {
+    "day": 299,
+    "verse": "Psalm 145:18",
+    "english": "God is near to those who pray.",
+    "telugu": "ప్రార్థించువారికి దేవుడు సమీపముగా ఉన్నాడు."
+  },
+  {
+    "day": 300,
+    "verse": "Matthew 19:26",
+    "english": "All things are possible with God.",
+    "telugu": "దేవునితో సమస్తమును సాధ్యమే."
+  },
+   {
+    "day": 301,
+    "verse": "Psalm 27:14",
+    "english": "Wait on the Lord with courage.",
+    "telugu": "ధైర్యముతో యెహోవాకై నిరీక్షించుము."
+  },
+  {
+    "day": 302,
+    "verse": "John 16:33",
+    "english": "Jesus gives victory and peace.",
+    "telugu": "యేసు జయమును సమాధానమును ఇస్తాడు."
+  },
+  {
+    "day": 303,
+    "verse": "Psalm 34:4",
+    "english": "God frees you from fear.",
+    "telugu": "దేవుడు భయమునుండి విడిపించును."
+  },
+  {
+    "day": 304,
+    "verse": "Romans 8:1",
+    "english": "There is no condemnation in Christ.",
+    "telugu": "క్రీస్తునందు శిక్షలేదు."
+  },
+  {
+    "day": 305,
+    "verse": "Psalm 62:1",
+    "english": "Rest quietly in God.",
+    "telugu": "దేవునియందు నిశ్చలముగా విశ్రాంతి పొందుము."
+  },
+  {
+    "day": 306,
+    "verse": "Matthew 6:33",
+    "english": "Seek God first.",
+    "telugu": "మొదట దేవుని వెదకుడి."
+  },
+  {
+    "day": 307,
+    "verse": "Psalm 91:1",
+    "english": "Live under God's protection.",
+    "telugu": "దేవుని రక్షణలో నివసించుము."
+  },
+  {
+    "day": 308,
+    "verse": "Hebrews 11:1",
+    "english": "Faith gives assurance.",
+    "telugu": "విశ్వాసము నమ్మకమును ఇస్తుంది."
+  },
+  {
+    "day": 309,
+    "verse": "Psalm 145:13",
+    "english": "God remains faithful forever.",
+    "telugu": "దేవుడు నిత్యము నమ్మకమైనవాడు."
+  },
+  {
+    "day": 310,
+    "verse": "John 10:11",
+    "english": "Jesus is the good shepherd.",
+    "telugu": "యేసు మంచి కాపరి."
+  },
+  {
+    "day": 311,
+    "verse": "Psalm 46:1",
+    "english": "God is your refuge and strength.",
+    "telugu": "దేవుడు నీ ఆశ్రయం మరియు బలం."
+  },
+  {
+    "day": 312,
+    "verse": "Romans 12:12",
+    "english": "Be joyful in hope.",
+    "telugu": "నిరీక్షణలో సంతోషించుము."
+  },
+  {
+    "day": 313,
+    "verse": "Psalm 37:4",
+    "english": "Delight yourself in God.",
+    "telugu": "దేవునిలో ఆనందించుము."
+  },
+  {
+    "day": 314,
+    "verse": "John 11:25",
+    "english": "Jesus is the resurrection and life.",
+    "telugu": "యేసే పునరుత్థానము మరియు జీవము."
+  },
+  {
+    "day": 315,
+    "verse": "Psalm 103:2",
+    "english": "Remember God's goodness.",
+    "telugu": "దేవుని మేలులను జ్ఞాపకముంచుకొనుము."
+  },
+  {
+    "day": 316,
+    "verse": "Philippians 4:6",
+    "english": "Pray about everything.",
+    "telugu": "ప్రతి విషయములో ప్రార్థించుడి."
+  },
+  {
+    "day": 317,
+    "verse": "Psalm 118:24",
+    "english": "Rejoice in God's day.",
+    "telugu": "దేవుడు చేసిన దినమున సంతోషించుము."
+  },
+  {
+    "day": 318,
+    "verse": "Isaiah 43:2",
+    "english": "God stays with you in trouble.",
+    "telugu": "ఆపదలో దేవుడు నీతో ఉంటాడు."
+  },
+  {
+    "day": 319,
+    "verse": "Psalm 23:4",
+    "english": "Fear no evil.",
+    "telugu": "ఏ కీడుకి భయపడకుము."
+  },
+  {
+    "day": 320,
+    "verse": "Matthew 5:16",
+    "english": "Let your light shine.",
+    "telugu": "మీ వెలుగు ప్రకాశించనీయుడి."
+  },
+  {
+    "day": 321,
+    "verse": "Psalm 119:114",
+    "english": "God is your hiding place.",
+    "telugu": "దేవుడు నీ ఆశ్రయస్థలం."
+  },
+  {
+    "day": 322,
+    "verse": "Romans 15:5",
+    "english": "God gives patience and encouragement.",
+    "telugu": "దేవుడు సహనమును ధైర్యమును ఇస్తాడు."
+  },
+  {
+    "day": 323,
+    "verse": "Psalm 28:7",
+    "english": "God is your shield.",
+    "telugu": "దేవుడు నీ కేడెము."
+  },
+  {
+    "day": 324,
+    "verse": "John 14:18",
+    "english": "Jesus will not leave you alone.",
+    "telugu": "యేసు మిమ్మును అనాథలుగా విడువడు."
+  },
+  {
+    "day": 325,
+    "verse": "Psalm 147:3",
+    "english": "God heals your heart.",
+    "telugu": "దేవుడు నీ హృదయమును స్వస్థపరచును."
+  },
+  {
+    "day": 326,
+    "verse": "James 1:5",
+    "english": "God gives wisdom generously.",
+    "telugu": "దేవుడు ఉదారముగా జ్ఞానమిస్తాడు."
+  },
+  {
+    "day": 327,
+    "verse": "Psalm 121:7",
+    "english": "God protects your life.",
+    "telugu": "దేవుడు నీ జీవమును కాపాడును."
+  },
+  {
+    "day": 328,
+    "verse": "Romans 8:39",
+    "english": "Nothing separates you from God's love.",
+    "telugu": "దేవుని ప్రేమనుండి ఏదియు వేరు చేయలేదు."
+  },
+  {
+    "day": 329,
+    "verse": "Psalm 33:22",
+    "english": "Place your hope in God.",
+    "telugu": "దేవునియందు నిరీక్షణ ఉంచుము."
+  },
+  {
+    "day": 330,
+    "verse": "John 15:13",
+    "english": "Greater love has no one.",
+    "telugu": "ఇదికంటె గొప్ప ప్రేమలేదు."
+  },
+  {
+    "day": 331,
+    "verse": "Psalm 84:11",
+    "english": "God gives grace and honor.",
+    "telugu": "దేవుడు కృపను మహిమను ఇస్తాడు."
+  },
+  {
+    "day": 332,
+    "verse": "Hebrews 13:8",
+    "english": "Jesus never changes.",
+    "telugu": "యేసు ఎప్పటికీ మారడు."
+  },
+  {
+    "day": 333,
+    "verse": "Psalm 37:23",
+    "english": "God directs your steps.",
+    "telugu": "దేవుడు నీ అడుగులను నడిపించును."
+  },
+  {
+    "day": 334,
+    "verse": "Matthew 7:11",
+    "english": "God gives good things.",
+    "telugu": "దేవుడు మంచి వరములు ఇస్తాడు."
+  },
+  {
+    "day": 335,
+    "verse": "Psalm 86:15",
+    "english": "God is full of mercy.",
+    "telugu": "దేవుడు కనికరముతో నిండియున్నాడు."
+  },
+  {
+    "day": 336,
+    "verse": "John 1:5",
+    "english": "Light shines in darkness.",
+    "telugu": "చీకటిలో వెలుగు ప్రకాశించుచున్నది."
+  },
+  {
+    "day": 337,
+    "verse": "Psalm 71:5",
+    "english": "God is your hope.",
+    "telugu": "దేవుడే నీ నిరీక్షణ."
+  },
+  {
+    "day": 338,
+    "verse": "Romans 5:5",
+    "english": "God's love fills your heart.",
+    "telugu": "దేవుని ప్రేమ నీ హృదయమును నింపును."
+  },
+  {
+    "day": 339,
+    "verse": "Psalm 145:18",
+    "english": "God is near when you call.",
+    "telugu": "నీవు పిలిచినప్పుడు దేవుడు సమీపముగా ఉన్నాడు."
+  },
+  {
+    "day": 340,
+    "verse": "Isaiah 26:4",
+    "english": "Trust in God forever.",
+    "telugu": "నిత్యము దేవునిని నమ్ముము."
+  },
+  {
+    "day": 341,
+    "verse": "Psalm 18:30",
+    "english": "God's way is perfect.",
+    "telugu": "దేవుని మార్గము సంపూర్ణము."
+  },
+  {
+    "day": 342,
+    "verse": "Philippians 4:19",
+    "english": "God supplies your needs.",
+    "telugu": "దేవుడు నీ అవసరములను తీర్చును."
+  },
+  {
+    "day": 343,
+    "verse": "Psalm 56:3",
+    "english": "Trust God when afraid.",
+    "telugu": "భయపడినప్పుడు దేవునిని నమ్ముము."
+  },
+  {
+    "day": 344,
+    "verse": "John 6:35",
+    "english": "Jesus is the bread of life.",
+    "telugu": "యేసు జీవాహారము."
+  },
+  {
+    "day": 345,
+    "verse": "Psalm 143:8",
+    "english": "Show me the way to walk.",
+    "telugu": "నేను నడవవలసిన మార్గము చూపుము."
+  },
+  {
+    "day": 346,
+    "verse": "Romans 6:23",
+    "english": "God gives eternal life.",
+    "telugu": "దేవుడు నిత్యజీవమును ఇస్తాడు."
+  },
+  {
+    "day": 347,
+    "verse": "Psalm 9:9",
+    "english": "God is a refuge in trouble.",
+    "telugu": "ఆపదలో దేవుడు ఆశ్రయం."
+  },
+  {
+    "day": 348,
+    "verse": "Matthew 11:29",
+    "english": "Learn from Jesus.",
+    "telugu": "యేసునొద్ద నేర్చుకొనుడి."
+  },
+  {
+    "day": 349,
+    "verse": "Psalm 16:11",
+    "english": "God fills you with joy.",
+    "telugu": "దేవుడు ఆనందముతో నింపును."
+  },
+  {
+    "day": 350,
+    "verse": "Hebrews 10:23",
+    "english": "Hold firmly to hope.",
+    "telugu": "నిరీక్షణను గట్టిగా పట్టుకొనుము."
+  },
+  {
+    "day": 351,
+    "verse": "Psalm 31:3",
+    "english": "God leads and guides you.",
+    "telugu": "దేవుడు నిన్ను నడిపించును."
+  },
+  {
+    "day": 352,
+    "verse": "John 8:31",
+    "english": "Remain in God's word.",
+    "telugu": "దేవుని వాక్యములో నిలిచియుండుము."
+  },
+  {
+    "day": 353,
+    "verse": "Psalm 40:1",
+    "english": "God hears your cry.",
+    "telugu": "దేవుడు నీ మొఱ వినును."
+  },
+  {
+    "day": 354,
+    "verse": "Romans 12:21",
+    "english": "Overcome evil with good.",
+    "telugu": "మంచితో చెడును జయించుము."
+  },
+  {
+    "day": 355,
+    "verse": "Psalm 63:7",
+    "english": "God is your help.",
+    "telugu": "దేవుడే నీ సహాయకుడు."
+  },
+  {
+    "day": 356,
+    "verse": "James 4:8",
+    "english": "Draw near to God.",
+    "telugu": "దేవునికి సమీపముగా రండి."
+  },
+  {
+    "day": 357,
+    "verse": "Psalm 145:14",
+    "english": "God lifts the fallen.",
+    "telugu": "పడినవారిని దేవుడు లేపును."
+  },
+  {
+    "day": 358,
+    "verse": "Matthew 21:22",
+    "english": "Believe and receive.",
+    "telugu": "నమ్మి అడిగినది పొందుదురు."
+  },
+  {
+    "day": 359,
+    "verse": "Psalm 125:1",
+    "english": "Trusting God makes you strong.",
+    "telugu": "దేవుని నమ్మినవారు స్థిరంగా ఉంటారు."
+  },
+  {
+    "day": 360,
+    "verse": "John 14:23",
+    "english": "God stays with those who love Him.",
+    "telugu": "దేవుడు తనను ప్రేమించువారితో నివసించును."
+  },
+  {
+    "day": 361,
+    "verse": "Psalm 103:8",
+    "english": "God is compassionate and gracious.",
+    "telugu": "దేవుడు కనికరముగలవాడు కృపగలవాడు."
+  },
+  {
+    "day": 362,
+    "verse": "Romans 8:18",
+    "english": "Greater glory is ahead.",
+    "telugu": "ముందున్న మహిమ గొప్పది."
+  },
+  {
+    "day": 363,
+    "verse": "Psalm 19:14",
+    "english": "May my words please God.",
+    "telugu": "నా మాటలు దేవునికి ఇష్టమగునుగాక."
+  },
+  {
+    "day": 364,
+    "verse": "John 15:9",
+    "english": "Remain in God's love.",
+    "telugu": "దేవుని ప్రేమలో నిలిచియుండుము."
+  },
+  {
+    "day": 365,
+    "verse": "Psalm 150:6",
+    "english": "Let everything praise the Lord.",
+    "telugu": "ప్రతి ప్రాణి దేవునిని స్తుతించుగాక."
+  }
+]
