@@ -1,0 +1,38 @@
+# Render Blueprint — web service + daily WhatsApp cron (12:00 AM IST)
+#
+# 12:00 AM India (Asia/Kolkata) = 18:30 UTC previous day offset
+# Schedule: 30 18 * * *  (every day at 18:30 UTC)
+#
+# After deploy:
+# 1. Set CRON_SECRET in both web service and cron job env (same value)
+# 2. Set RENDER_SERVICE_URL on cron job to your web URL, e.g. https://holyspirit-backend.onrender.com
+# 3. Or edit the curl URL below to your actual Render web service URL
+
+services:
+  - type: web
+    name: holyspirit-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ENABLE_DAILY_PROMISE_CRON
+        value: "true"
+      - key: BHASHSMS_TIMEZONE
+        value: Asia/Kolkata
+      - key: DAILY_PROMISE_CRON
+        value: "0 0 * * *"
+      # Add MONGO_URI, JWT_SECRET, BHASHSMS_*, CRON_SECRET, etc. in Render dashboard
+
+  - type: cron
+    name: daily-promise-whatsapp
+    runtime: node
+    schedule: "30 18 * * *"
+    buildCommand: npm install
+    startCommand: node scripts/render-cron-daily-promise.js
+    envVars:
+      - key: RENDER_SERVICE_URL
+        sync: false
+      - key: CRON_SECRET
+        sync: false

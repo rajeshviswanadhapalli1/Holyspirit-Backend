@@ -3,6 +3,7 @@ const {
   todayIsoDate,
   getDailyDeliveryReport,
 } = require('../services/dailyPromiseBroadcastService');
+const { runDailyPromiseBroadcastJobSafe } = require('../jobs/dailyPromiseCron');
 const DailyPromiseBroadcastLog = require('../models/dailyPromiseBroadcastLog');
 
 exports.sendDailyPromiseNow = async (req, res) => {
@@ -67,6 +68,24 @@ exports.getDailyDeliveryReport = async (req, res) => {
     res.status(200).json({ status: 'Success', data });
   } catch (err) {
     console.error('getDailyDeliveryReport:', err);
+    res.status(500).json({ status: 'Error', message: err.message });
+  }
+};
+
+/**
+ * External cron trigger (Render Cron Job, cron-job.org, etc.).
+ * Secured with CRON_SECRET — does not need admin JWT.
+ */
+exports.triggerDailyPromiseCron = async (req, res) => {
+  try {
+    const date = req.body?.date || req.query?.date;
+    const result = await runDailyPromiseBroadcastJobSafe({
+      date: date || undefined,
+      source: 'external-cron',
+    });
+    res.status(200).json({ status: 'Success', data: result });
+  } catch (err) {
+    console.error('triggerDailyPromiseCron:', err);
     res.status(500).json({ status: 'Error', message: err.message });
   }
 };

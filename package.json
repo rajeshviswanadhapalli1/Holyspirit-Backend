@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "postinstall": "node scripts/patch-node25-deps.js"
-  },
-  "engines": {
-    "node": ">=20.0.0"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",

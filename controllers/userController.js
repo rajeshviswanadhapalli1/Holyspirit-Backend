@@ -1,10 +1,6 @@
 const User = require('../models/usermodal');
 const mongoose = require('mongoose');
 const { uploadImageBuffer } = require('../utils/cloudinaryUpload');
-const {
-  broadcastDailyPromise,
-  todayIsoDate,
-} = require('../services/dailyPromiseBroadcastService');
 
 function formatUserProfile(user) {
   const obj = user.toObject ? user.toObject() : user;
@@ -143,22 +139,10 @@ exports.activateDailyPromise = async (req, res) => {
     user.languagePreference = language;
     await user.save();
 
-    const timezone = process.env.BHASHSMS_TIMEZONE || 'Asia/Kolkata';
-    const today = todayIsoDate(timezone);
-    setImmediate(() => {
-      broadcastDailyPromise({ date: today, userId: user._id })
-        .then((r) =>
-          console.log(`[DailyPromise] Same-day card after activate (${today}):`, JSON.stringify(r))
-        )
-        .catch((err) =>
-          console.error('[DailyPromise] Same-day card after activate failed:', err.message)
-        );
-    });
-
     res.status(200).json({
       status: 'Success',
       message:
-        'Daily promise activated. You will receive one promise card on WhatsApp every day at 12:00 AM (India time) in your selected language. If today\'s card is already uploaded, it will be sent shortly.',
+        'Daily promise activated. You will receive one promise card on WhatsApp every day at 12:00 AM (India time) in your selected language.',
       data: {
         dailyPromise: true,
         languagePreference: user.languagePreference,

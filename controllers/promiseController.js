@@ -1,6 +1,5 @@
 const cloudinary = require('cloudinary').v2;
 const DailyPromise = require('../models/dailypromisemodal');
-const { triggerBroadcastForDate } = require('../services/dailyPromiseBroadcastService');
 require('dotenv').config();
 
 // const translate = new Translate({ key: process.env.GOOGLE_API_KEY });
@@ -49,24 +48,16 @@ exports.saveDailyPromise = async (req, res) => {
         });
     const imageUrlTelugu = teluguUpload.secure_url;
 
-    const saved = await DailyPromise.findOneAndUpdate(
-      { date },
-      {
-        date,
-        text,
-        telugu: telugu || '',
-        englishReference: englishReference || '',
-        teluguReference: teluguReference || '',
-        imageUrlEnglish,
-        imageUrlTelugu,
-      },
-      { upsert: true, new: true, runValidators: true }
-    );
-
-    setImmediate(() => {
-      triggerBroadcastForDate(saved.date, 'post-upload').catch(() => {});
+    const dailyPromise = new DailyPromise({
+      date,
+      text,
+      telugu: telugu || '',
+      englishReference: englishReference || '',
+      teluguReference: teluguReference || '',
+      imageUrlEnglish,
+      imageUrlTelugu
     });
-
+    const saved = await dailyPromise.save();
     res.status(201).json(saved);
   } catch (err) {
     console.error('❌ Error in saveDailyPromise:', err);

@@ -29,22 +29,11 @@ app.use('/api/verse', verseRoutes);
 app.use('/api/bible', bibleRoutes);
 app.use('/api/promises', promiseRoutes)
 
-// Default 5001: macOS AirPlay Receiver often binds port 5000
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 connectDB().then(() => {
-  const server = app.listen(PORT, () => {
+  app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     startDailyPromiseCron();
-  });
-  server.on('error', (err) => {
-    if (err.code === 'EADDRINUSE') {
-      console.error(
-        `Port ${PORT} is in use. Set PORT in .env (e.g. 5001) or stop the other process.`
-      );
-    } else {
-      console.error('Server failed to start:', err.message);
-    }
-    process.exit(1);
   });
 });

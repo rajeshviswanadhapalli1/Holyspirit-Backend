@@ -6,7 +6,9 @@ const {
   sendDailyPromiseNow,
   getBroadcastStatus,
   getDailyDeliveryReport,
+  triggerDailyPromiseCron,
 } = require('../controllers/dailyPromiseBroadcastController');
+const { verifyCronSecret } = require('../middlewares/cronMiddleware');
 const multer = require('multer');
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
@@ -21,6 +23,8 @@ router.get('/daily-promise-by-date', require('../controllers/promiseController')
 router.get('/daily-promise-image', require('../controllers/promiseController').getDailyPromiseImageByDate);
 
 router.post('/broadcast-daily-now', protect, requireAdmin, sendDailyPromiseNow);
+router.post('/cron/daily-broadcast', verifyCronSecret, triggerDailyPromiseCron);
+router.get('/cron/daily-broadcast', verifyCronSecret, triggerDailyPromiseCron);
 router.get('/broadcast-status', protect, requireAdmin, getBroadcastStatus);
 router.get('/daily-delivery-report', protect, requireAdmin, getDailyDeliveryReport);
 

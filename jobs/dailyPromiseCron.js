@@ -7,6 +7,72 @@ const {
 
 let started = false;
 let catchUpRunning = false;
+let broadcastJobRunning = false;
+
+/**
+ * Core job: send today's daily promise WhatsApp to all active subscribers.
+ * Used by in-app cron, startup catch-up, admin API, and Render external cron.
+ */
+async function runDailyPromiseBroadcastJob(options = {}) {
+  const timezone = options.timezone || process.env.BHASHSMS_TIMEZONE || 'Asia/Kolkata';
+  const broadcastDate = options.date || todayIsoDate(timezone);
+  const source = options.source || 'unknown';
+
+  console.log(`[DailyPromise Job] Start (${source}) for ${broadcastDate} (${timezone})`);
+
+  const pending = await getBroadcastPendingStatus(broadcastDate);
+  if (!pending.promiseExists) {
+    const result = {
+      ok: false,
+      broadcastDate,
+      source,
+      message: `No daily promise in database for ${broadcastDate}`,
+      sent: 0,
+      failed: 0,
+      skipped: 0,
+    };
+    console.error(`[DailyPromise Job] ${result.message}`);
+    return result;
+  }
+
+  if (pending.pendingCount === 0) {
+    const result = {
+      ok: true,
+      broadcastDate,
+      source,
+      message: `All ${pending.sentCount} subscriber(s) already delivered for ${broadcastDate}`,
+      totalSubscribers: pending.subscriberCount,
+      sent: 0,
+      failed: 0,
+      skipped: pending.sentCount,
+    };
+    console.log(`[DailyPromise Job] ${result.message}`);
+    return result;
+  }
+
+  console.log(
+    `[DailyPromise Job] ${pending.pendingCount}/${pending.subscriberCount} pending for ${broadcastDate}`
+  );
+  const result = await broadcastDailyPromise({ timezone, date: broadcastDate });
+  console.log(`[DailyPromise Job] Done (${source}):`, JSON.stringify(result));
+  return { ...result, source };
+}
+
+async function runDailyPromiseBroadcastJobSafe(options = {}) {
+  if (broadcastJobRunning) {
+    return {
+      ok: false,
+      message: 'Daily promise broadcast already in progress',
+      skipped: true,
+    };
+  }
+  broadcastJobRunning = true;
+  try {
+    return await runDailyPromiseBroadcastJob(options);
+  } finally {
+    broadcastJobRunning = false;
+  }
+}
 
 async function runDailyPromiseCatchUp() {
   if (process.env.ENABLE_DAILY_PROMISE_CRON === 'false') return;
@@ -30,7 +96,11 @@ async function runDailyPromiseCatchUp() {
     console.log(
       `[DailyPromise CatchUp] ${pending.pendingCount}/${pending.subscriberCount} pending for ${broadcastDate} — sending now`
     );
-    const result = await broadcastDailyPromise({ timezone, date: broadcastDate });
+    const result = await runDailyPromiseBroadcastJobSafe({
+      timezone,
+      date: broadcastDate,
+      source: 'catch-up',
+    });
     console.log('[DailyPromise CatchUp] Done:', JSON.stringify(result));
   } catch (err) {
     console.error('[DailyPromise CatchUp] Failed:', err.message);
@@ -57,45 +127,14 @@ function startDailyPromiseCron() {
   cron.schedule(
     schedule,
     async () => {
-      const broadcastDate = todayIsoDate(timezone);
-      console.log(
-        `[DailyPromise Cron] 12 AM broadcast starting for ${broadcastDate} (${timezone})`
-      );
       try {
-        const pending = await getBroadcastPendingStatus(broadcastDate);
-        if (!pending.promiseExists) {
-          console.error(
-            `[DailyPromise Cron] No promise in DB for ${broadcastDate} — upload today's card first`
-          );
-          return;
-        }
-        console.log(
-          `[DailyPromise Cron] Targets: ${pending.subscriberCount} daily-promise active user(s)`
-        );
-        const result = await broadcastDailyPromise({ timezone, date: broadcastDate });
-        console.log('[DailyPromise Cron] Done:', JSON.stringify(result));
+        await runDailyPromiseBroadcastJobSafe({ timezone, source: 'in-app-cron' });
       } catch (err) {
         console.error('[DailyPromise Cron] Failed:', err.message);
       }
     },
     { timezone }
   );
-
-  const pendingSchedule = process.env.DAILY_PROMISE_PENDING_CRON || '*/15 * * * *';
-  if (cron.validate(pendingSchedule)) {
-    cron.schedule(
-      pendingSchedule,
-      () => {
-        runDailyPromiseCatchUp().catch((err) => {
-          console.error('[DailyPromise PendingCheck] Unhandled:', err.message);
-        });
-      },
-      { timezone }
-    );
-    console.log(
-      `[DailyPromise Cron] Pending delivery check every 15 min (${pendingSchedule}, ${timezone})`
-    );
-  }
 
   started = true;
   console.log(
@@ -110,4 +149,9 @@ function startDailyPromiseCron() {
   }, catchUpDelayMs);
 }
 
-module.exports = { startDailyPromiseCron, runDailyPromiseCatchUp };
+module.exports = {
+  startDailyPromiseCron,
+  runDailyPromiseCatchUp,
+  runDailyPromiseBroadcastJob,
+  runDailyPromiseBroadcastJobSafe,
+};

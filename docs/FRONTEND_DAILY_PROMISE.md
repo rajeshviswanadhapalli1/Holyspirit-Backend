@@ -411,14 +411,58 @@ Response:
 
 ## 4. Automatic send at 12 AM
 
-The server runs a cron job when it starts (no extra frontend action).
+### Why Render may not send at midnight
+
+On **Render**, the web service **sleeps when idle** (free/starter). In-app `node-cron` only runs while the process is awake — so **12 AM cron often never fires**.
+
+**Fix:** Use **Render Cron Job** (or any external scheduler) to call the trigger API every day.
+
+### Render setup (recommended)
+
+1. **Web service env** (Render dashboard → Environment):
+   ```env
+   CRON_SECRET=your-long-random-secret
+   ENABLE_DAILY_PROMISE_CRON=true
+   BHASHSMS_TIMEZONE=Asia/Kolkata
+   ```
+
+2. **Create Cron Job** on Render (or use `render.yaml` in repo):
+   - **Schedule:** `30 18 * * *` (UTC) = **12:00 AM IST**
+   - **Command:** `node scripts/render-cron-daily-promise.js`
+   - **Env:**
+     ```env
+     RENDER_SERVICE_URL=https://YOUR-APP.onrender.com
+     CRON_SECRET=same-secret-as-web-service
+     ```
+
+3. **Redeploy** web service after adding `CRON_SECRET`.
+
+### Cron trigger API (no admin JWT)
+
+```http
+POST /api/promises/cron/daily-broadcast
+x-cron-secret: your-long-random-secret
+```
+
+Or:
+
+```http
+GET /api/promises/cron/daily-broadcast?secret=your-long-random-secret
+```
+
+Response same as manual broadcast (`sent`, `failed`, `skipped`).
+
+### In-app cron (backup)
+
+Still runs if the server is **always on** (paid instance, no sleep):
 
 | Env variable | Default | Meaning |
 |--------------|---------|---------|
 | `DAILY_PROMISE_CRON` | `0 0 * * *` | 12:00 AM IST every day |
 | `BHASHSMS_TIMEZONE` | `Asia/Kolkata` | Cron timezone |
 | `ENABLE_DAILY_PROMISE_CRON` | enabled | Set `false` to disable |
-| `DAILY_PROMISE_CATCHUP_DELAY_MS` | `5000` | On server start, retry today’s send if midnight was missed |
+| `DAILY_PROMISE_CATCHUP_DELAY_MS` | `5000` | On server start, retry today’s send if missed |
+| `CRON_SECRET` | — | Required for external Render cron |
 
 **Who receives WhatsApp (every day 12:00 AM IST):**
 
